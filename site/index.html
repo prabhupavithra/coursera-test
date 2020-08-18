@@ -1,10 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello Coursera</title>
+	<title>PrabhuCafe</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Cute+Font&family=Flamenco:wght@300;400&display=swap" rel="stylesheet">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbGFBemk2aU1Gb0E3Y1A2WXN2aHFtQXJrRjVXZ3xBQ3Jtc0tuQnluRGtNUmRoRURUMDMtUXVWZmtHS1hlWGVocGRZWVhHUGhwZHhBM014SzNaQ3lxREJOWjF4YTduSHpqa2V1Yl9pVVR6NS1nM3ROeDY0LU9TTHN3LUlIVzEtazBQUGFLRzRQSTk1aEVQOThYNzRVNA%3D%3D&event=video_description&v=yfYch-HerV4&q=https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Ffont-awesome%2F4.7.0%2Fcss%2Ffont-awesome.min.css"/>
+
 </head>
 <body>
-	<h1> Hello Coursera! </h1>
+	<header>
+		<nav>
+			<div class="row clearfix">
+				<img src="../images/header1.png" class="logo" height="100px">
+				<ul class="main-nav animate__animated animate__bounce" id ="check-class">
+					<li><a href = "#">CAKE DELIVERY</a></li>
+					<li><a href = "#">HOW TO ORDER</a></li>
+					<li><a href = "#">CHECK MORE</a></li>
+					<li><a href = "#">Sign Up</a></li>
+				</ul>
+				<a href="#" class="mobile-icon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+			</div>
+		</nav>
+		<div class="main-content-header">
+		<h1>WELCOME TO <span class="colorchange">PRABHU CAFE</span>.<br> HOUSE OF CAKE LOVER</h1>
+		<a href = "#" class = "btn click-order"> CLICK TO ORDER </a>
+		<a href = "#" class = "btn show-more"> Show me more </a>
+		</div>
+	</header>
+	<script type="text/javascript">
+		function slideshow(){
+			var x = document.getElementById('check-class');
+			if(x.style.display === "none"){
+				x.style.display ="block";
+			}else{
+				x.style.display ="none";
+			}
+		}
+	</script>
 
 </body>
 </html>
